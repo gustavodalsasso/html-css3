@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Lato:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fundo de tela*/
+
+html{
+    width: 100vw;
+    height: 100vh;
+    font-size: 62.5;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background: linear-gradient(rgba(11, 54, 140, 0.582),rgba(122, 3, 3, 0.514)),
+    url(/imagens/carro2.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-position-y:0px ;
+    background-repeat: no-repeat;}
+
+    /* menu header*/
+    
+    header{
+        width: 100%;
+        height: 7vh;
+        background-color: #1a256641;
+    }
+    .menu-content{
+        text-transform: uppercase;
+        height: 98%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        font-size: 1.5rem;
+    }
+    .logo{
+        font-size: 1.5rem;
+        letter-spacing: 0.4rem;
+        cursor: pointer;
+        color: white;
+    }
+
+    .menu-content .list-itens{
+        display: flex;
+        list-style: none;
+        gap: 8px;
+    }
+
+    .menu-content .list-itens a{
+        text-decoration: none;
+        color: white;
+        padding: 1.3rem;
+        transform: 1.5ms ease-in;
+        position: relative;
+
+    }
+    .menu-content .list-itens a:before{
+        content: '';
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+        width: 0px;
+        height: 1px;
+        background-color: #ee0a0adc;
+        transition: all 1.5s ease;
+
+
+    }
+    .menu-content .list-itens a:hover:before{
+        width: 95%;
+    }
+
+    /* Centro*/
+
+    main{
+        height: 93vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+
+    }
+    main.content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .primeiro-texto{
+        width: 850px;
+        font-size: 3rem;
+        margin-bottom: 1.5rem;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    .segundo-texto{
+margin-bottom: 6.5rem;
+font-size: 2rem;
+color: rgba(165,165,165);
+text-transform: uppercase;
+
+    }
+
+    .btns{
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+    .btns button{
+width: 250px;
+height: 60px;
+border: 1px solid white;
+text-transform: uppercase;
+background-color: transparent;
+font-weight: bold;
+letter-spacing: 0.2rem;
+border-radius: 20px;
+position: relative;
+transition: 1.5s;
+    }
+
+    .btns button:before{
+        content: '';
+        border-radius: 20px;
+        bottom: 0px;
+        left: 0px;
+        position: absolute;
+        width: 0%;
+        height: 60px;
+        background-color: rgba(190, 50, 50, 0.432);
+        z-index: -1;
+        transition: 1s;
+
+    }
+.btns button:hover:before{
+    width: 100%;
+}

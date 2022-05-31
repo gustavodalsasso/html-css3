@@ -1,0 +1,27 @@
+{Domínio- Domínio é o nome que identifica o meu site}
+.
+.
+.
+.
+.
+.
+.
+.
+.{ Hospedagem- Hospedagem é onde meu site estará salvo} 
+
+.  Espaço para armazenar meus arquivos
+
+
+Idenficando- (url {subdominio-www}{domínio-github}{Tld-.com}{Caminho-/gustavoguanabara}  )
+
+ 
+GTLD- (São Tlds genéricos, sem indicação de país. Alguns dominios desse tipo são >com, .net,.gov, .org,.io,.info,.online,.store,etc)
+ccTLDS (São Tlds com designação do país { coutry code} Alguns dos dominios desse tipo são .com.br,.edu.us, .co.fr, .jp, .es,etc)
+.
+.
+.
+.
+.
+.Sub-dominio.
+
+Exempo (images.google.com.br, maps.google.com.br)
