@@ -1,9 +1,0 @@
-Emogis e simbolos podem ser adicionados com:
-&#x1f600;
-       &#x1f608;
-       &#x1f610;
-       &yen;
-       &#x1f700;                 Sendo que simbolos são: &euro;.
-
-
-                                        E emogis são &#x1f600
